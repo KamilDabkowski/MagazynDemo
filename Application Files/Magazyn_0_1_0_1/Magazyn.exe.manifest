@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Magazyn.exe" version="0.1.0.1" publicKeyToken="db74ff21fb41db6f" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="warehouse.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Magazyn" version="0.1.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Magazyn.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opcje manifestu kontroli konta użytkownika
+          Jeśli chcesz zmienić poziom kontroli konta użytkownika systemu Windows, zastąp węzeł 
+          requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Jeśli chcesz użyć wirtualizacji plików i rejestru do celów zgodności wstecznej, 
+         usuń węzeł requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Magazyn.exe" size="890328">
+      <assemblyIdentity name="Magazyn" version="0.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AybttMSLtxyHXLHcSxSzDIqf8qQe6ies2Cl642tRrjo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Magazyn.exe.config" size="2542">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z0ppZX0U9Qlco47acRvREZycaii/asa/eOkxIggyLkQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="skrypt_bazy.sql" size="12514">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C/XpxZSPJQJVL08Xi/uuSu6kJY7iQ6VjJM/S4gAkju8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="warehouse.ico" size="14449">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WKCIxTvJpJcFFVJvd2h8quNTW3JNAePtRarcQWWF0js=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-LFVUHHA\qqq" issuerKeyHash="c5b3506978a283e0ebb84ead8fbc120e6df5ad0e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>I3tK/t0iPhr3Hf7sd2/NBhn50fGFj6+jVVtn16vl3ks=</DigestValue></Reference></SignedInfo><SignatureValue>UfwZJl+VIXoffphr2EC5dm3kDnLFxu00IzKVw7WVVjST0zwLRqv4TWEX1BmYEcwMAPK9DQ8jfW2IjAf8NdvFMaKzExeRLqBPjOxdy9EYaIRd7Ve6JNZqF50U/w9WEk/7D5+l88TR27po1ybTxuWJe0zjzmGnXSxyKXamSZyUjRo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pC1/aj+ZxNgKrmxS5/tE5ae6TOgJo15ZOBnWk5mFrEFtrKr2SoYutxdpqYLikwaoJvy3AuMxRMeH5Xpk6W92cTa0wl6eOi50keUpS8Zt24+iPJ9Kd7g0WRhZUkGDdsRz9Y5v2wUxnzrD25hp0jTo23MqMPnujELhPyROjZ8HMP0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4bdee5abd7675b55a3af8f85f1d1f91906cd6f77ecfe1df71a3e22ddfe4a7b23" Description="" Url=""><as:assemblyIdentity name="Magazyn.exe" version="0.1.0.1" publicKeyToken="db74ff21fb41db6f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-LFVUHHA\qqq</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vjwWmrSqpFN5zVIRSSrdARv06OZ0yXnKxbrnIoOdRnU=</DigestValue></Reference></SignedInfo><SignatureValue>k4Ini266gG9mzKCzmhU4c1FgzFN6Hwa3lAqg5pDF1p7ZyCgN42JFFdHNSFe8X5F5pz1Ip4WsPojcwbgtR56xGcNUN2amcfQW0GoBu81RtyO/YFzzBBUvM8/9zjxSdA3CA6vMcbyJIh7NHTr3jzJmnl/umKvBxZZaVNe0L1aD5u4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pC1/aj+ZxNgKrmxS5/tE5ae6TOgJo15ZOBnWk5mFrEFtrKr2SoYutxdpqYLikwaoJvy3AuMxRMeH5Xpk6W92cTa0wl6eOi50keUpS8Zt24+iPJ9Kd7g0WRhZUkGDdsRz9Y5v2wUxnzrD25hp0jTo23MqMPnujELhPyROjZ8HMP0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQKzhe768HILpIJuOrOsDtKTANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABFAFMASwBUAE8AUAAtAEwARgBWAFUASABIAEEAXABxAHEAcTAeFw0yMTA4MzExNzM0MTNaFw0yMjA4MzEyMzM0MTNaMDExLzAtBgNVBAMeJgBEAEUAUwBLAFQATwBQAC0ATABGAFYAVQBIAEgAQQBcAHEAcQBxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCkLX9qP5nE2AqubFLn+0Tlp7pM6AmjXlk4GdaTmYWsQW2sqvZKhi63F2mpguKTBqgm/LcC4zFEx4flemTpb3ZxNrTCXp46LnSR5SlLxm3bj6I8n0p3uDRZGFlSQYN2xHP1jm/bBTGfOsPbmGnSNOjbcyow+e6MQuE/JE6Nnwcw/QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADxAe5OeiLv+1ZCQerMSdYQnIe6fLXzN0Vu6uUuGFRfU85TWqQ8Vpot1k94YmgSH7kyT0apgnxtHr8uQcrC9iSXZf30GZ6/30dWFxIWsvijwyzbtwr/M1jXCwzZrjpM1UPyjxH7tuI9/5/Mh/Hn6wgitXmJbM1m/3meGRYsVK2Qc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
